@@ -1,0 +1,37 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  color: #f9faf8;
+}
+
+body {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  font-size: 18px;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
