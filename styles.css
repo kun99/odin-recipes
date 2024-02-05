@@ -1,0 +1,35 @@
+div {
+  color: white;
+}
+
+p {
+  color: red;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: left;
+}
+
+.recipe-choice {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius:10px;
+}
+
+.recipe-choice a, h1 {
+  text-decoration: none;
+  color:dimgray;
+}
+
+.recipe-choice h1 {
+  display: flex;
+  justify-content: left;
+}
