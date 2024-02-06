@@ -160,12 +160,36 @@ main {
 }
 
 .cta-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action-card {
   background-color: #3882f6;
+  width: 70%;
+  border-radius: 8px;
+  margin: 100px 0px 100px 0px;
 }
 
 .call-to-action {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px 50px 0px;
+}
+
+.cta-text-header {
+  color: #f9faf8;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cta-text-desc {
+  color: #e5e7eb;
+  font-size: 20px;
 }
 
 .cta-section .sign-up {
   border-style: solid;
+  width: 12%;
 }
