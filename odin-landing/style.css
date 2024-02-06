@@ -67,6 +67,7 @@ main {
 .hero-desc {
   font-size: 18px;
   color: #e5e5e5;
+  margin-bottom: 10px;
 }
 
 .sign-up {
@@ -74,7 +75,6 @@ main {
   background-color: #3882f6;
   padding: 8px;
   border-radius: 8px;
-  margin-top: 10px;
   color: #f9faf8;
   font-size: 20px;
   border: none;
@@ -159,6 +159,13 @@ main {
   width: 44%;
 }
 
-.call-to-action {
+.cta-section {
   background-color: #3882f6;
+}
+
+.call-to-action {
+}
+
+.cta-section .sign-up {
+  border-style: solid;
 }
